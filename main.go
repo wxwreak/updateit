@@ -125,7 +125,7 @@ func refresh() {
 
 	logDir := filepath.Join(home, ".local", "share", "updateit")
 	os.MkdirAll(logDir, 0755)
-	url := fmt.Sprintf("https://github.com/wreakdev/updateit/releases/latest/download/updateit-%s-%s", runtime.GOOS, runtime.GOARCH)
+	url := fmt.Sprintf("https://github.com/wxwreak/updateit/releases/latest/download/updateit-%s-%s", runtime.GOOS, runtime.GOARCH)
 	if runtime.GOOS == "windows" {
 		url += ".exe"
 	}
