@@ -1,9 +1,9 @@
 # Package Manager Updater
-![GitHub release](https://img.shields.io/github/v/release/wreakdev/updateit?style=for-the-badge&color=blue)
-![License](https://img.shields.io/github/license/wreakdev/updateit?style=for-the-badge&color=green)
-![GitHub all releases](https://img.shields.io/github/downloads/wreakdev/updateit/total?style=for-the-badge&color=green)
+![GitHub release](https://img.shields.io/github/v/release/wxwreak/updateit?style=for-the-badge&color=blue)
+![License](https://img.shields.io/github/license/wxwreak/updateit?style=for-the-badge&color=green)
+![GitHub all releases](https://img.shields.io/github/downloads/wxwreak/updateit/total?style=for-the-badge&color=green)
 
-![updateit](https://github.com/wreakdev/updateit/blob/main/updateit-go.png)
+![updateit](https://github.com/wxwreak/updateit/blob/main/updateit-go.png)
 
 ---
 
@@ -41,16 +41,16 @@ Shows current version of updateit
 ### Quick Install (Recommended)
 **Linux / MacOS**:
 ```bash
-curl -sSL https://raw.githubusercontent.com/wreakdev/updateit/main/updateit_setup.sh | bash
+curl -sSL https://raw.githubusercontent.com/wxwreak/updateit/main/updateit_setup.sh | bash
 ```
 **Windows (PowerShell)**:
 ```powershell
-iwr https://raw.githubusercontent.com/wreakdev/updateit/main/updateit_setup.ps1 -useb | iex
+iwr https://raw.githubusercontent.com/wxwreak/updateit/main/updateit_setup.ps1 -useb | iex
 ```
 ### Manual Install (From Source)
 if you prefer to clone and build yourself:
 ```bash
-git clone https://github.com/wreakdev/updateit
+git clone https://github.com/wxwreak/updateit
 cd updateit
 chmod +x updateit_setup.sh
 ./updateit_setup.sh
